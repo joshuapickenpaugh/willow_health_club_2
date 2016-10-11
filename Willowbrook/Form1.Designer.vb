@@ -29,9 +29,9 @@ Partial Class frmMain
         Me.Label3 = New System.Windows.Forms.Label()
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.chkGolf = New System.Windows.Forms.CheckBox()
-        Me.chkTennis = New System.Windows.Forms.CheckBox()
         Me.chkRacquetball = New System.Windows.Forms.CheckBox()
+        Me.chkTennis = New System.Windows.Forms.CheckBox()
+        Me.chkGolf = New System.Windows.Forms.CheckBox()
         Me.btnCalc = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -89,6 +89,7 @@ Partial Class frmMain
         Me.lblTotal.Size = New System.Drawing.Size(100, 78)
         Me.lblTotal.TabIndex = 5
         Me.lblTotal.Text = " "
+        Me.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GroupBox1
         '
@@ -102,15 +103,15 @@ Partial Class frmMain
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Additional activities:"
         '
-        'chkGolf
+        'chkRacquetball
         '
-        Me.chkGolf.AutoSize = True
-        Me.chkGolf.Location = New System.Drawing.Point(21, 30)
-        Me.chkGolf.Name = "chkGolf"
-        Me.chkGolf.Size = New System.Drawing.Size(45, 17)
-        Me.chkGolf.TabIndex = 0
-        Me.chkGolf.Text = "&Golf"
-        Me.chkGolf.UseVisualStyleBackColor = True
+        Me.chkRacquetball.AutoSize = True
+        Me.chkRacquetball.Location = New System.Drawing.Point(21, 76)
+        Me.chkRacquetball.Name = "chkRacquetball"
+        Me.chkRacquetball.Size = New System.Drawing.Size(83, 17)
+        Me.chkRacquetball.TabIndex = 2
+        Me.chkRacquetball.Text = "&Racquetball"
+        Me.chkRacquetball.UseVisualStyleBackColor = True
         '
         'chkTennis
         '
@@ -122,15 +123,15 @@ Partial Class frmMain
         Me.chkTennis.Text = "&Tennis"
         Me.chkTennis.UseVisualStyleBackColor = True
         '
-        'chkRacquetball
+        'chkGolf
         '
-        Me.chkRacquetball.AutoSize = True
-        Me.chkRacquetball.Location = New System.Drawing.Point(21, 76)
-        Me.chkRacquetball.Name = "chkRacquetball"
-        Me.chkRacquetball.Size = New System.Drawing.Size(83, 17)
-        Me.chkRacquetball.TabIndex = 2
-        Me.chkRacquetball.Text = "&Racquetball"
-        Me.chkRacquetball.UseVisualStyleBackColor = True
+        Me.chkGolf.AutoSize = True
+        Me.chkGolf.Location = New System.Drawing.Point(21, 30)
+        Me.chkGolf.Name = "chkGolf"
+        Me.chkGolf.Size = New System.Drawing.Size(45, 17)
+        Me.chkGolf.TabIndex = 0
+        Me.chkGolf.Text = "&Golf"
+        Me.chkGolf.UseVisualStyleBackColor = True
         '
         'btnCalc
         '
