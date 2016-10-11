@@ -66,6 +66,20 @@ Public Class HealtClubCalculator
     Public Sub New()
 
         _intBasicFee = 0
+        _intAdditionalCharges = 0
+        _bolGolf = False
+        _bolTennis = False
+        _bolRacquetball = False
+
+    End Sub
+
+    Public Sub Clear()
+
+        _intBasicFee = 0
+        _intAdditionalCharges = 0
+        _bolGolf = False
+        _bolTennis = False
+        _bolRacquetball = False
 
     End Sub
 

@@ -17,6 +17,8 @@ Public Class frmMain
 
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
 
+        hlthClbClc.Clear()
+
         Integer.TryParse(txtBasicFee.Text, hlthClbClc.BasicFee)
 
         If chkGolf.Checked Then
