@@ -1,4 +1,8 @@
-﻿Option Strict On
+﻿'Joshua Pickenpaugh
+'October 10th, 2016
+'Willowbrook Health Club (monthly dues).
+
+Option Strict On
 
 Public Class frmMain
 
